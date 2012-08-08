@@ -37,8 +37,11 @@ Execution Steps
 4. Run the program using utils/runaccesslog.sh after making necessary changes related to your local environment. Following are the relevant parameters you may need to change:
 
     a. Root folder location in HDFS file-system where log files are copied
+
     b. Expected folder location in HDFS file-system where results will be stored. Note that the folder should not exist before-hand
+    
     c. Start time (in milliseconds) from where, the program should take into account user-access
+
     d. End time (in milliseconds) till where, the program should take into account user-access
 
 
@@ -46,15 +49,25 @@ Sample Output
 =============
 
 user10  1
+
 user11	1
+
 user12	1
+
 user13	1
+
 user14	1
+
 user4	2
+
 user5	2
+
 user6	2
+
 user7	1
+
 user8	1
+
 user9	1
 
 Understanding result
