@@ -44,7 +44,7 @@ Execution Steps
 
     d. End time (in milliseconds) till where, the program should take into account user-access
 
-5. Access output at specified <output-folder>/part-00000 file in your HDFS file system. Output folder is specified in utils/runaccesslog.sh.
+5. Access output at specified output-folder/part-00000 file in your HDFS file system. Output folder is specified in utils/runaccesslog.sh.
 
 Sample Output
 =============
